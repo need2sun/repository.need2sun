@@ -69,7 +69,44 @@
 	</extension>
 </addon>
 
-<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
+<addon id="repository.need2sun" name="need2sun Alpha Repository" version="3.5" provider-name="need2sun">
+    <extension point="xbmc.addon.repository" name="need2sun Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/repo/zips/</datadir>
+        </dir>
+		<dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0" maxversion="19.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="19.9.1" maxversion="20.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/nexusrepo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/nexusrepo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/nexusrepo/zips/</datadir>
+        </dir>
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>need2sun Alpha Repository</summary>
+        <description>A repository for alpha releases of need2sun.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
