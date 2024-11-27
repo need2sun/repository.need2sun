@@ -1,4 +1,4 @@
-# jurialmunkey Alpha Repository
+# need2sun Alpha Repository
 
 Kodi File Manager Source:
-https://jurialmunkey.github.io/repository.jurialmunkey/
+https://need2sun.github.io/repository.need2sun/
