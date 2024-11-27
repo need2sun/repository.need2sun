@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.need2sun" name="need2sun Alpha Repository" version="3.5" provider-name="need2sun">
-    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+    <extension point="xbmc.addon.repository" name="need2sun Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/need2sun/repository.need2sun/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/need2sun/repository.need2sun/master/repo/zips/addons.xml.md5</checksum>
