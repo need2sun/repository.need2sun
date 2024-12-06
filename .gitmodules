@@ -94,4 +94,4 @@
 [submodule "omega/plugin.video.einthusan3"]
 	path = omega/plugin.video.einthusan3
 	url = https://github.com/need2sun/plugin.video.einthusan3.git
-	branch = omega
+	branch = main
